@@ -3,6 +3,8 @@ import React from 'react'
 const About = () => {
   return (
     <div>
+		<section id='about'>
+
       <div className="dark:bg-gray-100 dark:text-gray-800 shadow-lg my-2">
 	<div className="container max-w-4xl px-10 py-6 mx-auto rounded-lg shadow-sm dark:bg-gray-50">
 		<div className="flex items-center justify-between">
@@ -19,6 +21,7 @@ const About = () => {
 		</div>
 	</div>
 </div>
+		</section>
     </div>
   )
 }

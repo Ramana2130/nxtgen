@@ -4,10 +4,10 @@ import { Bars3Icon, BellIcon, UserCircleIcon, XMarkIcon } from '@heroicons/react
 import logo from '../assets/nxt.png';
 
 const navigation = [
-  { name: 'About', href: '#', current: true },
-  { name: 'Projects', href: '#', current: false },
-  { name: 'Team', href: '#', current: false },
-  { name: 'Contact Us', href: '#', current: false },
+  { name: 'About', href: '#about', current: true },
+  { name: 'Projects', href: '#projects', current: false },
+  { name: 'Team', href: '#teams', current: false },
+  { name: 'Contact Us', href: '#contact', current: false },
 ]
 
 function classNames(...classes) {

@@ -4,7 +4,7 @@ import user from '../assets/use.png'
 const Team = () => {
   return (
     <div>
-       <section className="py-6 dark:bg-gray-100 dark:text-gray-800">
+       <section id='teams' className="py-6 dark:bg-gray-100 dark:text-gray-800">
 	<div className="container p-4 mx-auto space-y-16 sm:p-10">
 		<div className="space-y-4">
 			<h3 className="text-2xl font-bold leading-none sm:text-5xl">Our Team Members</h3>
