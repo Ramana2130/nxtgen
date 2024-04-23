@@ -8,7 +8,7 @@ const Team = () => {
 	<div className="container p-4 mx-auto space-y-16 sm:p-10">
 		<div className="space-y-4">
 			<h3 className="text-2xl font-bold leading-none sm:text-5xl">Our Team Members</h3>
-			<p className="max-w-2xl dark:text-gray-600 font-bold ">The Talented People Behind the Scenes</p>
+			<p className="max-w-2xl dark:text-black font-bold sm:mx-auto">The Talented People Behind the Scenes</p>
 		</div>
 		<div className="grid w-full grid-cols-1 gap-x-6 gap-y-12 sm:grid-cols-2 lg:grid-cols-4">
 			<div className="space-y-4">

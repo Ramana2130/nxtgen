@@ -16,16 +16,16 @@ const Contact = () => {
 	</div>
 	<form noValidate="" className="space-y-6">
 		<div>
-			<label htmlFor="name" className="text-sm">Full name</label>
-			<input id="name" type="text" placeholder="" className="w-full p-3 rounded dark:bg-gray-100" fdprocessedid="7qrvil" />
+			<label htmlFor="name" className="text-sm">Name</label>
+			<input id="name" type="text" placeholder="Enter Your Name" className="w-full p-3 rounded dark:bg-gray-100 " fdprocessedid="7qrvil" />
 		</div>
 		<div>
 			<label htmlFor="email" className="text-sm">Email</label>
-			<input id="email" type="email" className="w-full p-3 rounded dark:bg-gray-100" fdprocessedid="829x9o" />
+			<input id="email" type="email" placeholder="Enter Your Email" className="w-full p-3 rounded dark:bg-gray-100" fdprocessedid="829x9o" />
 		</div>
 		<div>
 			<label htmlFor="message" className="text-sm">Message</label>
-			<textarea id="message" rows="3" className="w-full p-3 rounded dark:bg-gray-100"></textarea>
+			<textarea id="message" rows="3" placeholder="Type here..." className="w-full p-3 rounded dark:bg-gray-100"></textarea>
 		</div>
 		<button type="submit" className="w-full p-3 text-sm font-bold tracking-wide uppercase rounded dark:bg-pink-800 dark:text-gray-50" fdprocessedid="9mej4k">Send Message</button>
 	</form>
